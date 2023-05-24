@@ -26,6 +26,7 @@ object Employees extends App with Context {
     )
     .csv(Constants.employeesCsvPath)
 
+
   val avgSalaryDf = employeesDf
     .groupBy("Department")
     .agg(avg("salary") as "Average department's salary")

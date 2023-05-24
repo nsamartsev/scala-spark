@@ -1,0 +1,2347 @@
+[
+  {
+    "code": "accesslevel",
+    "title": "Уровень доступа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nesteddocument",
+    "title": "Наличие вложенного документа иного типа",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "receivemethod",
+    "title": "Способ получения",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "controlperiod_diftype",
+    "title": "Контрольный срок",
+    "type": "DATETIME"
+  },
+  {
+    "code": "answerrequired",
+    "title": "Требуется ответ",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "room_number",
+    "title": "Номер помещения",
+    "type": "STRING"
+  },
+  {
+    "code": "originaldate",
+    "title": "Дата поступления оригинала",
+    "type": "DATE"
+  },
+  {
+    "code": "house_number",
+    "title": "Дом",
+    "type": "STRING"
+  },
+  {
+    "code": "flat_number",
+    "title": "Квартира",
+    "type": "STRING"
+  },
+  {
+    "code": "docnum_str",
+    "title": "Номер документа",
+    "type": "STRING"
+  },
+  {
+    "code": "datime",
+    "title": "Дата и время",
+    "type": "DATETIME"
+  },
+  {
+    "code": "organization_sender_name",
+    "title": "Наименование организации отправителя",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "rponumber",
+    "title": "Номер РПО",
+    "type": "STRING"
+  },
+  {
+    "code": "supplementscount",
+    "title": "Количество приложений",
+    "type": "INTEGER"
+  },
+  {
+    "code": "datadoc",
+    "title": "Дата",
+    "type": "DATE"
+  },
+  {
+    "code": "test_subdivision_responsible",
+    "title": "Подразделение/Ответственный",
+    "type": "STRING"
+  },
+  {
+    "code": "test_status",
+    "title": "Статус",
+    "type": "STRING"
+  },
+  {
+    "code": "test_period_of_execution",
+    "title": "Срок исполнения",
+    "type": "STRING"
+  },
+  {
+    "code": "account_number_knm",
+    "title": "Учетный номер КНМ",
+    "type": "INTEGER"
+  },
+  {
+    "code": "test_description",
+    "title": "Описание",
+    "type": "STRING"
+  },
+  {
+    "code": "send_method",
+    "title": "Способ отправки",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "date_of_the_beginning",
+    "title": "Дата начала ",
+    "type": "DATE"
+  },
+  {
+    "code": "sheetsscount",
+    "title": "Количество листов",
+    "type": "INTEGER"
+  },
+  {
+    "code": "summary",
+    "title": "Краткое содержание",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "expiration_date",
+    "title": "Дата окончания",
+    "type": "DATE"
+  },
+  {
+    "code": "description",
+    "title": "Полное содержание",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "remark",
+    "title": "Примечание",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "dateofcompletion",
+    "title": "Дата выполнения",
+    "type": "DATETIME"
+  },
+  {
+    "code": "decision_number",
+    "title": "Номер решения",
+    "type": "STRING"
+  },
+  {
+    "code": "decision_date",
+    "title": "Дата решения",
+    "type": "DATE"
+  },
+  {
+    "code": "appearance_for_drafting",
+    "title": "Явка на составление протокола АП",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "date_of_ap_protocol",
+    "title": "Дата составления простокола АП",
+    "type": "DATE"
+  },
+  {
+    "code": "notregister",
+    "title": "Не подлежит регистрации",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "collective",
+    "title": "Коллективное",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "control_level",
+    "title": "Уровень контроля",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "number",
+    "title": "Номер",
+    "type": "STRING"
+  },
+  {
+    "code": "controller",
+    "title": "ФИО контролера",
+    "type": "STRING"
+  },
+  {
+    "code": "fio_sender",
+    "title": "Отправитель (ФИО, должность)",
+    "type": "STRING"
+  },
+  {
+    "code": "organization_recipient",
+    "title": "Наименование организации получателя",
+    "type": "STRING"
+  },
+  {
+    "code": "type_of_knmpm",
+    "title": "Тип КНМ и ПМ",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "date_reg_doc",
+    "title": "Дата регистрации документа",
+    "type": "DATE"
+  },
+  {
+    "code": "fio_recipient",
+    "title": "Получатель (ФИО, должность)",
+    "type": "STRING"
+  },
+  {
+    "code": "email_sender",
+    "title": "E-mail отправителя",
+    "type": "STRING"
+  },
+  {
+    "code": "email_matches_sender",
+    "title": "E-mail соответсвует E-mail отправителя",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "doc_number_sender",
+    "title": "Номер документа (отправителя)",
+    "type": "STRING"
+  },
+  {
+    "code": "sender",
+    "title": "Отправитель",
+    "type": "STRING"
+  },
+  {
+    "code": "participation_in_the_meeting",
+    "title": "Участие в судебном заседании",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "doc_date_sender",
+    "title": "Дата документа (отправителя)",
+    "type": "DATE"
+  },
+  {
+    "code": "court_case_number",
+    "title": "Номер судебного дела",
+    "type": "STRING"
+  },
+  {
+    "code": "typerecipient",
+    "title": "Тип получателя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "cor_org_sender",
+    "title": "Организация получателя соответствует отправителю",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "recipient",
+    "title": "Получатель (ФИО, должность)",
+    "type": "USER"
+  },
+  {
+    "code": "cor_fio_sender",
+    "title": "ФИО получателя соответствует отправителю",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "adress_recipient",
+    "title": "Адрес получателя",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "index",
+    "title": "Почтовый индекс",
+    "type": "INTEGER"
+  },
+  {
+    "code": "country",
+    "title": "Страна",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "subject",
+    "title": "Субъект",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "district",
+    "title": "Район",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "city",
+    "title": "Город",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "locality",
+    "title": "Населенный пункт",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "street",
+    "title": "Улица",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "register_of_spr",
+    "title": "Реестр СПР",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "court_date",
+    "title": "Дата судебного заседания",
+    "type": "DATE"
+  },
+  {
+    "code": "сarrying_out_knmnp",
+    "title": "Проведение КНМ/ПМ",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "participant_type_court",
+    "title": "Тип участия в судебном заседании",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "email_recipient",
+    "title": "Email получателя",
+    "type": "STRING"
+  },
+  {
+    "code": "document_creation_date",
+    "title": "Дата создания документа",
+    "type": "DATE"
+  },
+  {
+    "code": "executor",
+    "title": "Исполнитель",
+    "type": "USER"
+  },
+  {
+    "code": "signatory",
+    "title": "Подписант",
+    "type": "USER"
+  },
+  {
+    "code": "porojectOne",
+    "title": "Вид корреспонденции",
+    "type": "STRING"
+  },
+  {
+    "code": "reason_for_refusal_to_register",
+    "title": "Причина отказа в регистрации",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "doc_form_for_send",
+    "title": "Форма документа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "org_sender",
+    "title": "Наименование организации отправителя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "urgency",
+    "title": "Срочность",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "function_project",
+    "title": "Функция/Проект",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "type_knm_pm",
+    "title": "Вид КНМ и ПМ",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "type_sender",
+    "title": "Тип отправителя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "organization_recipient_answer",
+    "title": "Наименование организации получателя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "legalperson_sender",
+    "title": "Наименование организации отправителя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nonrez_true_sender",
+    "title": "Название представительства иностранного ЮЛ",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nonrez_false_sender",
+    "title": "Наименование нерезидента",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fl_sender",
+    "title": "ФИО отправителя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "organization_recipient_regdata",
+    "title": "Наименование организации получателя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "type_sender_diftype",
+    "title": "Тип отправителя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "summary_diftype",
+    "title": "Краткое содержание",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "legalperson_sender_diftype",
+    "title": "Наименование организации отправителя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "deadline",
+    "title": "Контрольный срок",
+    "type": "DATETIME"
+  },
+  {
+    "code": "legalperson_recipient_answer",
+    "title": "Наименование организации получателя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nonrez_true_recipient_answer",
+    "title": "Название представительства иностранного ЮЛ",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nonrez_false_recipient_answer",
+    "title": "Наименование нерезидента",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fl_recipient_answer",
+    "title": "ФИО получателя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "sheetssupplementscount",
+    "title": "Количество листов приложений",
+    "type": "INTEGER"
+  },
+  {
+    "code": "nonrez_true_sender_diftype",
+    "title": "Название представительства иностранного ЮЛ",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nonrez_false_sender_diftype",
+    "title": "Наименование нерезидента",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fl_sender_diftype",
+    "title": "ФИО отправителя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "ul_fio_sender",
+    "title": "Отправитель (ФИО, должность)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nonrez_true_fio_sender",
+    "title": "Отправитель (ФИО, должность)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nonrez_true_fio_recipient",
+    "title": "Получатель (ФИО, должность)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "testatt3",
+    "title": "Тестовый атрибут 3",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nonrez_false_fio_sender",
+    "title": "Отправитель (ФИО, должность)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nonrez_false_fio_sender_diftype",
+    "title": "Отправитель (ФИО, должность)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nonrez_false_fio_recipient",
+    "title": "Получатель (ФИО, должность)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "complete_date",
+    "title": "Фактическая дата выполнения",
+    "type": "DATETIME"
+  },
+  {
+    "code": "nord",
+    "title": "Назначение ОРД",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "refusereason_incoming",
+    "title": "Причины отказа в регистрации",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "sheetsscount_outgoing",
+    "title": "Количество листов",
+    "type": "INTEGER"
+  },
+  {
+    "code": "ID_landocs",
+    "title": "ID документа LanDocs",
+    "type": "STRING"
+  },
+  {
+    "code": "doc_number_arch",
+    "title": "Номер документа",
+    "type": "STRING"
+  },
+  {
+    "code": "reg_date_arch",
+    "title": "Дата документа",
+    "type": "DATETIME"
+  },
+  {
+    "code": "ContractN",
+    "title": "Номер договора",
+    "type": "STRING"
+  },
+  {
+    "code": "documentstypes",
+    "title": "Тип и вид документа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "documentstypes_diftype",
+    "title": "Тип и вид документа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "UID_landocs",
+    "title": "Ссылка на документ LanDocs",
+    "type": "URL"
+  },
+  {
+    "code": "legalperson_sender_arch",
+    "title": "Наименование организации отправителя",
+    "type": "STRING"
+  },
+  {
+    "code": "fio_sender_arch",
+    "title": "Отправитель (ФИО, должность)",
+    "type": "STRING"
+  },
+  {
+    "code": "recipient_arch",
+    "title": "Получатель (ФИО, должность)",
+    "type": "STRING"
+  },
+  {
+    "code": "integration_sign",
+    "title": "Признак интеграции",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "RegNumEIS",
+    "title": "Реестровая запись в ЕИС",
+    "type": "STRING"
+  },
+  {
+    "code": "EndDate",
+    "title": "Дата окончания действия",
+    "type": "DATE"
+  },
+  {
+    "code": "MSP",
+    "title": "Договор заключается с МСП",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "MSPOnTRU",
+    "title": "МСП по перечню ТРУ",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "SubPdSum",
+    "title": "Размер привлечения субподряда (сумма)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "SubPdPercent",
+    "title": "Размер привлечения субподряда (%)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "InnovationSum",
+    "title": "Размер привлечения инноваций (сумма)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "InnovationPercent",
+    "title": "Размер привлечения инноваций (%)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "NomGroupID",
+    "title": "Номенклатурная группа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "TargetsID",
+    "title": "Целевые объекты",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "OrderLocateTypeID",
+    "title": "Способ размещения закупки",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "ReasonToSignID",
+    "title": "Основания для заключения договора",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "ContractStatusID",
+    "title": "Статус договора",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "PurchaseCategoryID",
+    "title": "Категория закупки",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "SubjectCategoryID",
+    "title": "Категория субъекта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "BeginWork",
+    "title": "Срок начала работ",
+    "type": "DATE"
+  },
+  {
+    "code": "EndWork",
+    "title": "Срок завершения работ ",
+    "type": "DATE"
+  },
+  {
+    "code": "BeginDate",
+    "title": "Дата начала действия",
+    "type": "DATE"
+  },
+  {
+    "code": "AddAgreementID",
+    "title": "Предмет дополнительного соглашения",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "MakerID",
+    "title": "Подготовил",
+    "type": "USER"
+  },
+  {
+    "code": "ConclusionFormatID",
+    "title": "Формат заключения",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "SubjectFederationID",
+    "title": "Субъект федерации",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "ObjectOfWorkID",
+    "title": "Объект работ",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "CashFlowItemID",
+    "title": "Статья движения денежных средств",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "ClassOKPD2ID",
+    "title": "Товары РФ по ОКПД2",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "SignDate",
+    "title": "Дата подписания (дата заключения)",
+    "type": "DATE"
+  },
+  {
+    "code": "nonrez_true_fio_sender_diftype",
+    "title": "Отправитель (ФИО, должность)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "ul_fio_sender_diftype",
+    "title": "Отправитель (ФИО, должность)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "ContractSum",
+    "title": "Цена договора",
+    "type": "INTEGER"
+  },
+  {
+    "code": "EISStatusID",
+    "title": "Статус ЕИС",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "Department",
+    "title": "ЦФО",
+    "type": "USER"
+  },
+  {
+    "code": "ActualCFO",
+    "title": "Действующее ЦФО",
+    "type": "STRING"
+  },
+  {
+    "code": "ResponsibleForAccountingID",
+    "title": "Ответственный за учет расходов",
+    "type": "USER"
+  },
+  {
+    "code": "PrDocument",
+    "title": "Является первичным документом",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "PrimaryDocumentID",
+    "title": "Первичный документ",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "GoodsRF",
+    "title": "Стоимостной объем товаров РФ. Объем товаров",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "OKPDID",
+    "title": "Стоимостной объем товаров РФ. ОКПД2",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "ContractSumAct",
+    "title": "Цена договора (текущая)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "Organization",
+    "title": "Организация",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "NumberOfGuarantee",
+    "title": "Номер договора поручительства",
+    "type": "STRING"
+  },
+  {
+    "code": "NumberOfBankGuarantee",
+    "title": "Номер банковской гарантии (банка)",
+    "type": "STRING"
+  },
+  {
+    "code": "EISDate",
+    "title": "Дата (ЕИС/ГИС Торги)",
+    "type": "DATE"
+  },
+  {
+    "code": "org_sender_delivery_service",
+    "title": "Организация отправитель (услуги доставки)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fio_sender_doc",
+    "title": "ФИО (отправителя)",
+    "type": "USER"
+  },
+  {
+    "code": "send_comment",
+    "title": "Комментарий отправки",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "doc_types_dic",
+    "title": "Тип и вид документа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "doc_types_dic_diftype",
+    "title": "Тип и вид документа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "CostItemID",
+    "title": "Функциональная статья затрат",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "PaymentCurrencyID",
+    "title": "Валюта платежа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "doc_deadline",
+    "title": "Срок исполнения документа",
+    "type": "DATETIME"
+  },
+  {
+    "code": "ctrl_lvl",
+    "title": "Уровень контроля",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "urg_term",
+    "title": "Срочность, календ.дни",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "bool_term",
+    "title": "Требуется указать срок исполнения документа вручную",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "send_confirm",
+    "title": "Подтверждение отправки",
+    "type": "FIlE"
+  },
+  {
+    "code": "refuse_reason_incoming",
+    "title": "Причина отказа в регистрации",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "thema_project",
+    "title": "Тематическая рубрика/проект",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "doc_form",
+    "title": "Форма документа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "doc_title",
+    "title": "Название документа",
+    "type": "STRING"
+  },
+  {
+    "code": "summary_outgoing",
+    "title": "Краткое содержание ",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "description_outgoing",
+    "title": "Полное содержание",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "doc_type_dic_out",
+    "title": "Тип и вид документа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "answer_on",
+    "title": "Ответ на",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "building_structure_num",
+    "title": "Номер здания/сооружения",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "test_att_1215",
+    "title": "Тестовый атрибут 1215",
+    "type": "STRING"
+  },
+  {
+    "code": "test_att_bool_1217",
+    "title": "Тестовый атрибут чек-бокс",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "test_att_file",
+    "title": "Тестовый атрибут файл",
+    "type": "FIlE"
+  },
+  {
+    "code": "ReturnOfCompletionBG",
+    "title": "Возврат в конце года завершения работ под БГ",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "BaseOfGuarantee",
+    "title": "База ГУ",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "CompletionEndDate",
+    "title": "Дата окончания исполнения (при заключении)",
+    "type": "DATE"
+  },
+  {
+    "code": "PositionSignatoryCounterparty",
+    "title": "Должность подписанта контрагента",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "QuantityOfGoods",
+    "title": "Количество (объем) товаров, работ, услуг",
+    "type": "INTEGER"
+  },
+  {
+    "code": "DocumentCurrencyID",
+    "title": "Валюта документа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "MaxPrice",
+    "title": "Начальная (максимальная) цена",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "test_att_date",
+    "title": "Тестовый атрибут дата",
+    "type": "DATE"
+  },
+  {
+    "code": "test_att_dic_1216",
+    "title": "Тестовый атрибут справочник",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "EndDateOfExecution",
+    "title": "Дата окончания исполнения",
+    "type": "DATE"
+  },
+  {
+    "code": "PurchasePlanPosition",
+    "title": "Позиция плана закупки",
+    "type": "STRING"
+  },
+  {
+    "code": "ContractPosition",
+    "title": "Позиция договора",
+    "type": "STRING"
+  },
+  {
+    "code": "RegistrationNumberOfProcedure",
+    "title": "Реестровый номер процедуры размещения заказа",
+    "type": "STRING"
+  },
+  {
+    "code": "PaymentAmount",
+    "title": "Сумма аванса",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "CompletionDateCurrent",
+    "title": "Дата завершения (работ, услуг, поставки товара, иное) (текущая)",
+    "type": "DATE"
+  },
+  {
+    "code": "UnitID",
+    "title": "Единица измерения",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "SignatoryCounterpartyID",
+    "title": "ФИО подписанта контрагента",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "PercentOfReturnWork",
+    "title": "% возврата по завершению работ",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "PlanItemNumberEIS",
+    "title": "Номер позиции плана (ЕИС)",
+    "type": "STRING"
+  },
+  {
+    "code": "GuaranteeRetentionPlan",
+    "title": "ГУ план",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "BeginDateOfExecution",
+    "title": "Дата начала исполнения",
+    "type": "DATE"
+  },
+  {
+    "code": "CFOAtCreation",
+    "title": "ЦФО (при создании)",
+    "type": "STRING"
+  },
+  {
+    "code": "BankID",
+    "title": "Банк",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "RefundAmountOfWork",
+    "title": "Сумма возврата по завершению работ",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "DateOfPaymentOfFirstPart",
+    "title": "Дата выплаты первой части ГУ",
+    "type": "DATE"
+  },
+  {
+    "code": "WithheldGuaranteeFact",
+    "title": "ГУ удержанные (факт)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "RemainderWithheldGuarantee",
+    "title": "Остаток ГУ к удержанию",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "PercentGuarantee",
+    "title": "% ГУ",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "RemainderGuarantee",
+    "title": "Остаток возврата ГУ",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "ExpirationDateGuarantee",
+    "title": "Дата окончания действия БГ",
+    "type": "DATE"
+  },
+  {
+    "code": "AmountOfBankGuarantee",
+    "title": "Сумма БГ",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "ReturnOfGuaranteeFact",
+    "title": "Возврат ГУ (факт)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "EndOfSecurityPeriod",
+    "title": "Окончание периода обеспечения",
+    "type": "DATE"
+  },
+  {
+    "code": "testatributM",
+    "title": "Тестовый атрибут М",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "TypeOfBankGuaranteeID",
+    "title": "Вид банковской гарантии",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "org_issue_ord",
+    "title": "Организация, выпустившая ОРД",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "side_agreement",
+    "title": "Сторона соглашения",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "control_person",
+    "title": "Контролирующее лицо",
+    "type": "USER"
+  },
+  {
+    "code": "doc_format",
+    "title": "Способ оформления документа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "cancel_effect_ord",
+    "title": "Отменяет действие ОРД",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "cancel_ord",
+    "title": "Отменяемая ОРД",
+    "type": "URL"
+  },
+  {
+    "code": "mailing_recipient",
+    "title": "Адресат рассылки",
+    "type": "USER"
+  },
+  {
+    "code": "urgency_arch",
+    "title": "Срочность",
+    "type": "STRING"
+  },
+  {
+    "code": "inc_recipient_number_arch",
+    "title": "Номер входящего получателя",
+    "type": "STRING"
+  },
+  {
+    "code": "inc_recipient_data_arch",
+    "title": "Дата входящего получателя",
+    "type": "DATETIME"
+  },
+  {
+    "code": "addressee_arch",
+    "title": "Адресат (наименование организации/ физ. лица)",
+    "type": "STRING"
+  },
+  {
+    "code": "addressee_fio_arch",
+    "title": "Адресат (ФИО, должность)",
+    "type": "STRING"
+  },
+  {
+    "code": "signatory_arch",
+    "title": "Подписант (ФИО, должность)",
+    "type": "STRING"
+  },
+  {
+    "code": "executor_arch",
+    "title": "Исполнитель (ФИО, должность)",
+    "type": "STRING"
+  },
+  {
+    "code": "subdivision_executor_arch",
+    "title": "Подразделение исполнителя",
+    "type": "STRING"
+  },
+  {
+    "code": "subdivision_addressee_arch",
+    "title": "Подразделение адресата",
+    "type": "STRING"
+  },
+  {
+    "code": "organization_gk_arch",
+    "title": "Организация ГК (исполнитель)",
+    "type": "STRING"
+  },
+  {
+    "code": "chairman",
+    "title": "Председатель",
+    "type": "USER"
+  },
+  {
+    "code": "secretary",
+    "title": "Секретарь",
+    "type": "USER"
+  },
+  {
+    "code": "end_date",
+    "title": "Дата окончания действия",
+    "type": "DATE"
+  },
+  {
+    "code": "effective_date",
+    "title": "Дата начала действия",
+    "type": "DATE"
+  },
+  {
+    "code": "doc_reason_cease",
+    "title": "Документ-основание прекращения",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "idresortfromsite",
+    "title": "ID обращения с сайта",
+    "type": "INTEGER"
+  },
+  {
+    "code": "addressee",
+    "title": "Адресат (ФИО, должность)",
+    "type": "USER"
+  },
+  {
+    "code": "post_track_num",
+    "title": "Почтовый трек-номер",
+    "type": "STRING"
+  },
+  {
+    "code": "referral_date",
+    "title": "Дата направления",
+    "type": "DATE"
+  },
+  {
+    "code": "dzo_recipient",
+    "title": "Получатель (ФИО, должность)",
+    "type": "STRING"
+  },
+  {
+    "code": "fio_sender_doc1",
+    "title": "ФИО (Отправителя)",
+    "type": "USER"
+  },
+  {
+    "code": "cease_data",
+    "title": "Дата прекращения действия",
+    "type": "DATE"
+  },
+  {
+    "code": "end_data_cancel_ord",
+    "title": "Дата прекращения действия отменяемой ОРД",
+    "type": "DATE"
+  },
+  {
+    "code": "cancels_document",
+    "title": "Отменяемая ОРД",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "subdivision_executor",
+    "title": "Подразделение исполнителя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "need_sign",
+    "title": "Подписать УКЭП",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "number_contract_guarantee",
+    "title": "Номер договора поручительства",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "name_guarantor",
+    "title": "Наименование поручителя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "ensured_obligations_bg",
+    "title": "Обеспечиваемые обязательства",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "status_requirements_bg",
+    "title": "Статус исполнения требования",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "payment_deferment_bg",
+    "title": "Отсрочка платежа",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "requirement_bg",
+    "title": "Требование",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "end_security_period",
+    "title": "Окончание периода обеспечения",
+    "type": "DATE"
+  },
+  {
+    "code": "beginning_security_period",
+    "title": "Начало периода обеспечения",
+    "type": "DATE"
+  },
+  {
+    "code": "changed_bg",
+    "title": "Изменяемая БГ",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "changes_action_bg",
+    "title": "Изменяет действие БГ",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "main_contract",
+    "title": "Основной договор",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "personal_data",
+    "title": "Содержит персональные данные",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "date_end_businesstrip",
+    "title": "Дата окончания командировки",
+    "type": "DATE"
+  },
+  {
+    "code": "date_start_businesstrip",
+    "title": "Дата начала командировки с",
+    "type": "DATE"
+  },
+  {
+    "code": "type_edu_application",
+    "title": "Тип заявки",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "recalled_attorney",
+    "title": "Отзываемая доверенность",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "organization_attorney",
+    "title": "Наименование организации",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "date_issuing_attorney",
+    "title": "Дата выдачи доверенности",
+    "type": "DATE"
+  },
+  {
+    "code": "advanced_attorney",
+    "title": "Передоверяемая доверенность",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "foreining",
+    "title": "Порядок передоверия",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "registry_notary",
+    "title": "Реестровый номер нотариуса",
+    "type": "STRING"
+  },
+  {
+    "code": "notary_form_number",
+    "title": "Номер бланка нотариуса",
+    "type": "STRING"
+  },
+  {
+    "code": "type_attorney",
+    "title": "Тип доверенности",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "issued_powers",
+    "title": "Выдаваемые полномочия",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "formalization_method",
+    "title": "Способ оформления",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "responsible_employee",
+    "title": "Ответственный сотрудник за получение доверенности",
+    "type": "USER"
+  },
+  {
+    "code": "employee_agr_ul",
+    "title": "Сотрудник компании получателя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "employee_agr_org",
+    "title": "Сотрудник компании получателя",
+    "type": "USER"
+  },
+  {
+    "code": "company_recipient_ul",
+    "title": "Компания-получатель",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "company_recipient_org",
+    "title": "Компания-получатель",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "type_company",
+    "title": "Тип компании получателя",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "document_end_termination",
+    "title": "Документ-основание прекращения",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "reason_termination",
+    "title": "Причина прекращения",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "date_termination_attorney",
+    "title": "Дата прекращения доверенности",
+    "type": "DATE"
+  },
+  {
+    "code": "date_end_attorney",
+    "title": "Дата окончания действия доверенности",
+    "type": "DATE"
+  },
+  {
+    "code": "validity",
+    "title": "Срок действия, месяцев",
+    "type": "INTEGER"
+  },
+  {
+    "code": "basis_issuance",
+    "title": "Документ-основание выдачи",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "test_att",
+    "title": "Тестовый атрибут",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "test_atr",
+    "title": "тестовый",
+    "type": "STRING"
+  },
+  {
+    "code": "test_demo",
+    "title": "Тип получателя ",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "ul_fio_recipient",
+    "title": "Получатель (ФИО, должность)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "testmgr",
+    "title": "ТестовыйМ",
+    "type": "GROUP"
+  },
+  {
+    "code": "controllevel_diftype",
+    "title": "Уровень контроля",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "reason_to_sign",
+    "title": "Основание для неконкурентной процедуры",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "test_hierarchy",
+    "title": "Тест иерархии",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "OtherRecipient",
+    "title": "Иные получатели входящего документа",
+    "type": "USER"
+  },
+  {
+    "code": "test",
+    "title": "Тестовый",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "test1",
+    "title": "Тестовый атрибут справочник",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "test5",
+    "title": "Тестовый атрибут 3",
+    "type": "STRING"
+  },
+  {
+    "code": "testing4",
+    "title": "тестовый",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "attr_grupa",
+    "title": "Атрибут Группа(ПМИ)",
+    "type": "GROUP"
+  },
+  {
+    "code": "attr_file",
+    "title": "Атрибут Файл(ПМИ)",
+    "type": "FIlE"
+  },
+  {
+    "code": "link",
+    "title": "Link",
+    "type": "URL"
+  },
+  {
+    "code": "name_number_KV",
+    "title": "Наименование и нумерация",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "test123456",
+    "title": "тест123456",
+    "type": "STRING"
+  },
+  {
+    "code": "pmi_testy",
+    "title": "тест_пми",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "234",
+    "title": "тест1",
+    "type": "STRING"
+  },
+  {
+    "code": "Contractnumber",
+    "title": "Номер договора",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "typeofprocedure",
+    "title": "Тип процедуры",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "planposition",
+    "title": "План закупки",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "implementation_plan",
+    "title": "Позиция плана реализации",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "Marketplace",
+    "title": "Торговая площадка",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "Publicationnumbertrading",
+    "title": "Номер публикации на торговой площадке",
+    "type": "STRING"
+  },
+  {
+    "code": "securityamount",
+    "title": "Размер обеспечения",
+    "type": "INTEGER"
+  },
+  {
+    "code": "Nameinsurancecompany",
+    "title": "Наименование страховой организации",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "numbeinsurancepolicy",
+    "title": "Номер страхового полиса",
+    "type": "STRING"
+  },
+  {
+    "code": "typeofinsurance",
+    "title": "Виды страхования",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "dateofconclusion",
+    "title": "Дата заключения",
+    "type": "DATE"
+  },
+  {
+    "code": "Infoaboutrisks",
+    "title": "Информация о застрахованных рисках",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "reason_notregister_contract",
+    "title": "Обоснование для перевода документа в статус \"Архив\"",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "contract_type",
+    "title": "Тип договора",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "agreement_category",
+    "title": "Категория договора",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "purchase_realization_method",
+    "title": "Способ закупки",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "implementationplan",
+    "title": "Номер позиции плана реализации",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "plan_zakupok_dzo",
+    "title": "План закупки ДЗО",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "reestr_num_procedure",
+    "title": "Реестровый номер процедуры",
+    "type": "STRING"
+  },
+  {
+    "code": "purchasing_msp",
+    "title": "Закупка с МСП",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "rationale_for_paperform",
+    "title": "Документ обоснование для бумажной формы",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "contract_before_bidding",
+    "title": "Договор до торгов",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "reg_entry_number_eis_gis",
+    "title": "Номер реестровой записи (ЕИС/ГИС Торги)",
+    "type": "STRING"
+  },
+  {
+    "code": "reg_num_outside",
+    "title": "Регистрационный номер (внешней стороны)",
+    "type": "STRING"
+  },
+  {
+    "code": "reg_date_outside",
+    "title": "Регистрационная дата (внешней стороны)",
+    "type": "DATE"
+  },
+  {
+    "code": "reg_num_add_counterparty",
+    "title": "Регистрационный номер (дополнительного контрагента)",
+    "type": "STRING"
+  },
+  {
+    "code": "reg_date_add_counterparty",
+    "title": "Регистрационная дата (дополнительного контрагента)",
+    "type": "DATE"
+  },
+  {
+    "code": "federal_projects",
+    "title": "Федеральный проект",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "national_projects",
+    "title": "Национальный проект",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "construction_objects",
+    "title": "Наименование объекта строительства (АСЕК)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "cadastral_num_land",
+    "title": "Кадастровый номер участка",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "cadastral_num_dpt",
+    "title": "Порядковый или условный кадастровый номер (ДПТ)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "nom_groupe_zakupka_attr",
+    "title": "Номенклатурная группа",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "okpd2",
+    "title": "Код ОКПД2",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "SubjectContract",
+    "title": "Предмет договора",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "role1",
+    "title": "Роль",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "type_side1",
+    "title": "Тип",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_ul_ip1",
+    "title": "Наименование ЮЛ/ИП",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fio_ul_ip1",
+    "title": "ФИО подписанта",
+    "type": "USER"
+  },
+  {
+    "code": "name_nonrez_true1",
+    "title": "Наименование АФП",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fio_nonrez_true1",
+    "title": "ФИО подписанта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_nonrez_false1",
+    "title": "Наименование нерезидента",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fio_nonrez_false1",
+    "title": "ФИО подписанта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_fl1",
+    "title": "Наименование ФЛ",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "role2",
+    "title": "Роль",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "type_side2",
+    "title": "Тип",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_ul_ip2",
+    "title": "Наименование ЮЛ/ИП",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fio_ul_ip2",
+    "title": "ФИО подписанта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_nonrez_true2",
+    "title": "Наименование АФП",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fio_nonrez_true2",
+    "title": "ФИО подписанта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_nonrez_false2",
+    "title": "Наименование нерезидента",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fio_nonrez_false2",
+    "title": "ФИО подписанта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_fl2",
+    "title": "Наименование ФЛ",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "role3",
+    "title": "Роль",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "type_side3",
+    "title": "Тип",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_ul_ip3",
+    "title": "Наименование ЮЛ/ИП",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fio_ul_ip3",
+    "title": "ФИО подписанта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_nonrez_false3",
+    "title": "Наименование нерезидента",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fio_nonrez_true3",
+    "title": "ФИО подписанта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_nonrez_true3",
+    "title": "Наименование АФП",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "fio_nonrez_false3",
+    "title": "ФИО подписанта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_fl3",
+    "title": "Наименование ФЛ",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "start_condition",
+    "title": "Дата начала исполнения равна дате заключения договора",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "start_condition_contract",
+    "title": "Условие начала",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "stop_condition",
+    "title": "Имеется условие окончания",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "stop_condition_contract",
+    "title": "Условие окончания",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "start_date_zakl",
+    "title": "Дата начала (работ, услуг, поставки товара, иное) (при заключении)",
+    "type": "DATE"
+  },
+  {
+    "code": "contract_sum_zakl",
+    "title": "Цена договора (при заключении)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "year",
+    "title": "Год",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "volume",
+    "title": "Объем финансирования",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "total_amount",
+    "title": "Всего объем финансирования долгосрочного договора",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "availability_asecurity_deposit_zakl",
+    "title": "Наличие обеспечительного платежа (при заключении)",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "security_deposit_amount_zakl",
+    "title": "Сумма обеспечительного платежа (при заключении)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "availability_asecurity_deposit_current",
+    "title": "Наличие обеспечительного платежа (текущее)",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "security_deposit_amount_current",
+    "title": "Сумма обеспечительного платежа (текущая)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "type_advance",
+    "title": "Тип авансирования",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "advance_percentage",
+    "title": "Процент аванса",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "date_advance_payment",
+    "title": "Дата выплаты аванса",
+    "type": "DATE"
+  },
+  {
+    "code": "advance_payment_term",
+    "title": "Срок выплаты аванса",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "working_calendar",
+    "title": "Рабочие/календарные",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "source_advance_financing",
+    "title": "Источник финансирования аванса",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "condition_issuing_advance",
+    "title": "Условие выдачи аванса",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "event_types",
+    "title": "Тип события выдачи аванса",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "involvement_pp",
+    "title": "Участие в ПП",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "msp",
+    "title": "Требование к закупке (МСП)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "warranty_deductions",
+    "title": "Гарантийные удержания",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "base_gu_zakl",
+    "title": "База ГУ (при заключении)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "percent_gu_zakl",
+    "title": "Процент ГУ (при заключении)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "plan_gu_zakl",
+    "title": "ГУ план (при заключении)",
+    "type": "DOUBLE"
+  },
+  {
+    "code": "end_date_work",
+    "title": "Дата завершения работ",
+    "type": "DATE"
+  },
+  {
+    "code": "guarantee_period",
+    "title": "Срок гарантии",
+    "type": "DATE"
+  },
+  {
+    "code": "CFOAtRegistration",
+    "title": "ЦФО (при регистрации)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "CFOAtRealization",
+    "title": "ЦФО (при реализации)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "name_responsible",
+    "title": "ФИО ответственного",
+    "type": "USER"
+  },
+  {
+    "code": "for_test_recipient",
+    "title": "Получатель уведомления для теста",
+    "type": "USER"
+  },
+  {
+    "code": "vid_plan",
+    "title": "Вид плана",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "plan_name",
+    "title": "Наименование плана",
+    "type": "STRING"
+  },
+  {
+    "code": "plan_year",
+    "title": "Год плана",
+    "type": "STRING"
+  },
+  {
+    "code": "month_plan",
+    "title": "Месяц",
+    "type": "STRING"
+  },
+  {
+    "code": "zapros_plan",
+    "title": "Запрос от подразделения исполнителя",
+    "type": "STRING"
+  },
+  {
+    "code": "end_date_current",
+    "title": "Дата завершения (работ, услуг, поставки товара, иное) ",
+    "type": "DATE"
+  },
+  {
+    "code": "size_of_MSP_attraction",
+    "title": "Планируемый размер привлечения МСП",
+    "type": "INTEGER"
+  },
+  {
+    "code": "payment_amount",
+    "title": "Планируемый объем оплаты",
+    "type": "INTEGER"
+  },
+  {
+    "code": "enforcement_summ",
+    "title": "Предусмотрено привлечение к исполнению субподрядчиков из числа МСП, сумма",
+    "type": "INTEGER"
+  },
+  {
+    "code": "enforcement_percent",
+    "title": "Предусмотрено привлечение к исполнению субподрядчиков из числа МСП, %",
+    "type": "INTEGER"
+  },
+  {
+    "code": "participants_MSP",
+    "title": "Участниками закупки могут быть только МСП",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "Purchasing_category",
+    "title": "Категория закупки (по 1352)         ",
+    "type": "STRING"
+  },
+  {
+    "code": "Meets_the_criteria",
+    "title": "Удовлетворяет критериям к инновациям",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "Type_of_activity",
+    "title": "Вид деятельности (источник финансирования)",
+    "type": "STRING"
+  },
+  {
+    "code": "Purchasing_division",
+    "title": "Подразделение-инициатор закупки (ЦФО)",
+    "type": "STRING"
+  },
+  {
+    "code": "Name_of_national_project",
+    "title": "Наименование национального проекта ",
+    "type": "STRING"
+  },
+  {
+    "code": "Name_of_federal_project",
+    "title": "Наименование федерального проекта",
+    "type": "STRING"
+  },
+  {
+    "code": "target_item_code",
+    "title": "Код целевой статьи расходов",
+    "type": "STRING"
+  },
+  {
+    "code": "financial_support",
+    "title": "Объем финансового обеспечения закупки за счет субсидии",
+    "type": "INTEGER"
+  },
+  {
+    "code": "contract_term",
+    "title": "Срок исполнения договора (месяц, год)",
+    "type": "DATE"
+  },
+  {
+    "code": "quantity_information",
+    "title": "Сведения о количестве (объеме)",
+    "type": "INTEGER"
+  },
+  {
+    "code": "unit",
+    "title": "Единица измерения",
+    "type": "STRING"
+  },
+  {
+    "code": "OKPD2_code",
+    "title": "Код по ОКПД2",
+    "type": "STRING"
+  },
+  {
+    "code": "code_to_OKVED2",
+    "title": "Код по ОКВЭД2",
+    "type": "STRING"
+  },
+  {
+    "code": "delivery_region",
+    "title": "Регион поставки товаров, выполнения работ, оказания услуг",
+    "type": "STRING"
+  },
+  {
+    "code": "Subject_of_contract",
+    "title": "Предмет договора",
+    "type": "STRING"
+  },
+  {
+    "code": "date_plan",
+    "title": "Дата включения в корректировку плана",
+    "type": "DATE"
+  },
+  {
+    "code": "date_of_change",
+    "title": "Дата изменения ",
+    "type": "DATETIME"
+  },
+  {
+    "code": "kind_of_plan",
+    "title": "Вид плана ",
+    "type": "STRING"
+  },
+  {
+    "code": "document_type_procurement_plan",
+    "title": "Тип и вид документа",
+    "type": "STRING"
+  },
+  {
+    "code": "date_zakup_plan",
+    "title": "Планируемая дата размещения извещения о закупке (месяц, год)",
+    "type": "DATE"
+  },
+  {
+    "code": "max_price_plan",
+    "title": "Сведения о начальной (максимальное цене договора)",
+    "type": "INTEGER"
+  },
+  {
+    "code": "min_req_plan",
+    "title": "Минимально необходимые требования",
+    "type": "LONG_STRING"
+  },
+  {
+    "code": "position_eis_plan",
+    "title": "Позиция плана ЕИС",
+    "type": "INTEGER"
+  },
+  {
+    "code": "number_plan",
+    "title": "Порядковый номер по плану",
+    "type": "INTEGER"
+  },
+  {
+    "code": "in_contract_plan",
+    "title": "В контрактации",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "in_correct_plan",
+    "title": "Корректируется",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "sut_korrect_plan",
+    "title": "Суть корректировки",
+    "type": "STRING"
+  },
+  {
+    "code": "year_plan",
+    "title": "Год плана",
+    "type": "INTEGER"
+  },
+  {
+    "code": "type_contract_changes",
+    "title": "Тип вносимых изменений",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "registration_number",
+    "title": "Регистрационный номер",
+    "type": "DOCUMENT"
+  },
+  {
+    "code": "Type_UL_IP_FZ_1",
+    "title": "Тип (ЮЛ/ИП/ФЗ)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "Type_UL_IP_FZ_2",
+    "title": "Тип (ЮЛ/ИП/ФЗ)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "Type_UL_IP_FZ_3",
+    "title": "Тип (ЮЛ/ИП/ФЗ)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "inn_1",
+    "title": "ИНН",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "inn_2",
+    "title": "ИНН",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "inn_3",
+    "title": "ИНН",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "kpp_1",
+    "title": "КПП",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "kpp_2",
+    "title": "КПП",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "kpp_3",
+    "title": "КПП",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "signatory_position_1",
+    "title": "Должность подписанта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "signatory_position_2",
+    "title": "Должность подписанта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "signatory_position_3",
+    "title": "Должность подписанта",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "completion_date_contract",
+    "title": "Дата окончания исполнения (Договор)",
+    "type": "DATE"
+  },
+  {
+    "code": "end_condition_contract",
+    "title": "Условие окончания (Договор)",
+    "type": "DICTIONARY"
+  },
+  {
+    "code": "start_date_current",
+    "title": "Дата начала (работ, услуг, поставки товара, иное)",
+    "type": "DATE"
+  },
+  {
+    "code": "start_date_contract",
+    "title": "Дата начала (работ, услуг, поставки товара, иное) (Договор)",
+    "type": "DATE"
+  },
+  {
+    "code": "end_date_contract",
+    "title": "Дата завершения (работ, услуг, поставки товара, иное) (Договор)",
+    "type": "DATE"
+  },
+  {
+    "code": "contract_price_contract",
+    "title": "Цена договора (Договор)",
+    "type": "INTEGER"
+  },
+  {
+    "code": "availability_of_payment_contract",
+    "title": "Наличие обеспечительного платежа (Договор)",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "payment_availability",
+    "title": "Наличие обеспечительного платежа",
+    "type": "BOOLEAN"
+  },
+  {
+    "code": "amount_of_payment",
+    "title": "Сумма обеспечительного платежа",
+    "type": "INTEGER"
+  },
+  {
+    "code": "payment_amount_contract",
+    "title": "Сумма обеспечительного платежа (Договор) ",
+    "type": "INTEGER"
+  },
+  {
+    "code": "GU_base_new",
+    "title": "База ГУ (новая)",
+    "type": "INTEGER"
+  },
+  {
+    "code": "GI_percentage_new",
+    "title": "% ГУ (новый)",
+    "type": "INTEGER"
+  },
+  {
+    "code": "GU_plan_new",
+    "title": "ГУ план (новый)",
+    "type": "INTEGER"
+  }
+]

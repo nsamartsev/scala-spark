@@ -5,7 +5,7 @@ import utils.{Constants, Context}
 
 object Bank extends App with Context {
 
-  var df = spark.read
+  val df = spark.read
     .options(
       Map("header" -> "true", "delimiter" -> ";")
     )

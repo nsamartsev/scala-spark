@@ -17,7 +17,7 @@ import utils.{Constants, Context}
 
 object Employees extends App with Context {
 
-  var employeesDf = spark.read
+  val employeesDf = spark.read
     .options(
       Map(
         "header" -> "true",

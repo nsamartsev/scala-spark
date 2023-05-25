@@ -8,7 +8,7 @@ import org.apache.spark.sql.functions._
 
 object StocksPrice extends App with Context {
 
-  var df = spark.read
+  val df = spark.read
     .options(
       Map("header" -> "true", "delimiter" -> ",")
     )
@@ -17,7 +17,7 @@ object StocksPrice extends App with Context {
 
   val count = df.count()
 
-  df = df.na.drop()
+  df.na.drop()
 //  df.na.fill(df.select(f.mean(df['open'])).collect()[0][0])
   df.na.replace("height", ImmutableMap.of(1.0, 2.0))
 

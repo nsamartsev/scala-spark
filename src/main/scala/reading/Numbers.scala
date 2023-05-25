@@ -5,7 +5,7 @@ import utils.{Constants, Context}
 
 object Numbers extends App with Context {
 
-  var numbersDf = spark.read
+  val numbersDf = spark.read
     .options(
       Map(
         "header" -> "true",

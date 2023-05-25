@@ -6,7 +6,7 @@ import utils.{Constants, Context}
 
 object Musician extends App with Context {
 
-  var df = spark.read
+  val df = spark.read
     .options(
       Map(
         "header" -> "true",
